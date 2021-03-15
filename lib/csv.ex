@@ -3,7 +3,7 @@ defmodule Todo.Csv do
 
   @file_name if Mix.env() == :test, do: "files/todos_test.csv", else: "files/todos.csv"
 
-  def to_list() do
+  def to_list do
     @file_name
     |> parser(";")
     |> Enum.map(&Mapper.to_map/1)
@@ -21,7 +21,7 @@ defmodule Todo.Csv do
     todos
   end
 
-  def clear() do
+  def clear do
     File.write!(@file_name, "")
   end
 

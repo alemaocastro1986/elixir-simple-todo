@@ -1,7 +1,7 @@
 defmodule Todo do
   alias Todo.Csv
 
-  def list() do
+  def list do
     Csv.to_list()
   end
 

@@ -19,25 +19,43 @@ Elixir 1.11.3 (compiled with Erlang/OTP 21)
 
 ### Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+você precisa de uma conta no github para prosseguir.
 
-você precisa de um conta no github para prosseguir.
-
+1 - Clone repository
 ```bash
 git clone https://github.com/alemaocastro1986/elixir-simple-todo.git
 ```
-
+2 - Instalar as dependêcias
 ```bash
 mix deps.get
 ```
-
+3 - Utilizando o console interativo
 ```bash
 iex -S mix
 ```
+### Comandos:
 
-```bash
+#### List
+```elixir
 iex(1)> Todo.list()
 ```
+#### Add
+```elixir
+iex(1)> Todo.add(%{description: "new todo", start_date: ~D[2021-03-25]})
+```
+#### update 
+```elixir
+iex(1)> Todo.update(1, %{description: "updated todo", start_date: ~D[2021-03-25]})
+```
+#### its_done
+```elixir
+iex(1)> Todo.its_done(1)
+```
+#### delete
+```elixir
+iex(1)> Todo.delete(1)
+```
+<hr/>
 
 
 ## Executando os testes

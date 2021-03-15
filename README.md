@@ -24,7 +24,7 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 você precisa de um conta no github para prosseguir.
 
 ```bash
-git clone https://
+git clone https://github.com/alemaocastro1986/elixir-simple-todo.git
 ```
 
 ```bash

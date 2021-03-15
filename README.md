@@ -67,7 +67,7 @@ mix test
 
 ### testes de estilo de codificação
 
-Explique que eles verificam esses testes e porquê.
+Análise de código estático e consistência de código
 
 ```bash
 mix credo --strict
@@ -75,12 +75,6 @@ mix credo --strict
 
 ## Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [Elixir](https://elixir-lang.org/docs.html) - linguagem
 * [Credo](https://github.com/rrrene/credo) - Linter 
 
-
-<hr>
-
-com ❤️ por [Andrius Cunha Castro](https://gist.github.com/alemaocastro1986) 
